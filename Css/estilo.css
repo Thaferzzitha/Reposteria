@@ -2,6 +2,8 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 @import url(menú.css);
 @import url(banner.css);
+@import url(blog.css);
+@import url(info.css);
 
 *{
     margin: 0;
@@ -43,7 +45,69 @@ section{
     margin-bottom: 25px;
 }
 
+#bienvenidos{
+    text-align: center;
+}
+
+footer .contenedor{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.copy {
+    font-size: 20px;
+}
+
+.sociales{
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+
+.sociales a{
+    color:aqua;
+    text-decoration: none;
+}
+
+@media(min-width:1024px){
+    .contenedor{
+        width: 1000px;
+    }
+}
+
+@media(min-width:768px){
+    .sociales{
+        width: auto;
+    }
+
+    footer .contenedor{
+        justify-content: space-between;
+    }
+}
 .card {
     border: 0 !important;
-    box-shadow: 0 4px 6px -1px rgba(0,0,0,1), 0 2px 4px -1px rgba(0,0,0,0.06);
+    width: 100%;
+    margin: 30px;
+    border-radius:6px;
+    overflow: hidden;
+    background:rgb(168, 227, 245);
+    box-shadow: 0 4px 6px -1px rgb(0, 0, 0), 0 2px 4px -1px rgba(0,0,0,0.06);
+    cursor:default;
+    transition: all 400ms ease;
 }
+
+.container{
+    position: relative;
+    width: 1700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+}
+
+.card:hover{
+    box-shadow:  4px 5px 20px rgba(0,0,0,0.6);
+}
+

@@ -5,6 +5,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Práctica Aplicaciones ESPOCH</title>
     <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel='stylesheet'  href="Css/fontello.css"/>
     <link rel='stylesheet'  href="Css/estilo.css"/>
 </head>
@@ -12,7 +13,7 @@
 <body>
     <header>
 <div class="contenedor">
-    <h1 class="icon-cafe">Reposteria</h1>
+    <h1 class="icon-cafe"> Repostería </h1>
     <input type="checkbox" id= "menu-bar">
     <label  class = "icon-menu " for="menu-bar"></label>"
         <nav class ="menu">
@@ -26,7 +27,7 @@
 </header>
 <main>
 <section id="banner">
-    <img src="Imagenes/Portada.jpg" >
+    <img src="Imagenes/Portada_1.jpg" >
     <div class="contenedor">
     </h2> Las recetas más deliciosa y fáciles del mundo</h2>
     <p> ¿Cuál es su postre favorito?</p>
@@ -34,34 +35,103 @@
 </div>
 </section>
 
+<section id="bienvenidos">
+    <h2> BIENVENIDOS A MI BLOG DE POSTRES </h2> 
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+    Distinctio recusandae officia delectus tempore autem nostrum 
+    accusantium nesciunt tenetur, quam debitis!</p>
+</section>
+
+<section id="blog">
+    <h3> Lo último de nuestro blog </h3> 
+    <div class="contenedor">
+        <article>
+            <img src="Imagenes/Pasta choux.jpg" >
+            <h4>Trucos para una pasta </h4>
+            <h4> choux fácil y perfecta </h4>
+        </article>
+        <article>
+            <img src="Imagenes/Pasta choux.jpg" >
+            <h4>Trucos para hacer un </h4>
+            <h4> royal icing perfecto </h4>
+        </article>
+        <article>
+            <img src="Imagenes/Pasta choux.jpg" >
+            <h4>Cómo hornear un </h4>
+            <h4>bizcocho perfecto</h4>
+        </article>
+    </div>
+</section>
+
+<section id="info">
+    <h3> Para muchos de nosotros los postres son los postres son la parte favorita de la comida. </h3>
+    <div class="contenedor">
+        <div class="info-postre">
+            <img src="Imagenes/Pasta choux.jpg">
+            <h4>jsdhsd</h4>
+        </div>
+
+        <div class="info-postre">
+            <img src="Imagenes/Pasta choux.jpg">
+            <h4>bdbhd</h4>
+        </div>
+
+        <div class="info-postre">
+            <img src="Imagenes/Pasta choux.jpg">
+            <h4>hsdgd</h4>
+        </div>
+        <div class="info-postre">
+            <img src="Imagenes/Pasta choux.jpg">
+            <h4>hdbbd</h4>
+        </div>
+    </div>
+</section>
 </main>
+
+<footer>
+    <div class= "contenedor">
+        <p class="copy">Repostería &copy; 2021</p>
+        <div class="sociales">
+            <a class="icon-facebook"></a>
+            <a class="icon-instagram"></a>
+        </div>
+    </div>
+</footer>
 
 <section>
     <div class="container mt-5 mb-5">
-        <div class="card" style="width:18rem;">
-            <img src="Imagenes/Cards1.jpg" class="card-img-top" alt="Granos de café en las manos">
-            <div class="card-body">
-                <h5 class="card-Title">Materias primas de buena calidad</h5>
-            <p class="card-Text">Solo quién use las mejores materias primas para sus productos puede elaborar ingredientes de alta calidad.</p>
-            </div>
-            </div>
+        <div class="row justify-content-center">
 
-            <div class="card" style="width:18rem;">
-                <img src="Imagenes/Cards1.jpg" class="card-img-top" alt="Granos de café en las manos">
-                <div class="card-body">
-                    <h5 class="card-Title">Materias primas de buena calidad</h5>
-                <p class="card-Text">Solo quién use las mejores materias primas para sus productos puede elaborar ingredientes de alta calidad.</p>
-                </div>
-                </div>
-
-                <div class="card" style="width:18rem;">
-                    <img src="Imagenes/Cards1.jpg" class="card-img-top" alt="Granos de café en las manos">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                <div class="card">
+                    <img src="Imagenes/Card1.jpg" class="card-img-top" alt="Barras chocolate">
                     <div class="card-body">
                         <h5 class="card-Title">Materias primas de buena calidad</h5>
                     <p class="card-Text">Solo quién use las mejores materias primas para sus productos puede elaborar ingredientes de alta calidad.</p>
-            
                     </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                <div class="card">
+                    <img src="Imagenes/Comercio Justo.jpg" class="card-img-top" alt="Granos de café en las manos">
+                    <div class="card-body">
+                        <h5 class="card-Title">Comercio justo</h5>
+                    <p class="card-Text">Adquirir ingredientes de buena calidad a precios justos elaborar productos de alta calidad.</p>
                     </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 m-2">
+                <div class="card">
+                    <img src="Imagenes/Cup cake.jpg" class="card-img-top" alt="Granos de café en las manos">
+                    <div class="card-body">
+                        <h5 class="card-Title">Pasión por la repostería</h5>
+                    <p class="card-Text">Si la vida no es dulce endulzala tu mismo con un postre! Bate con amor, hornea con pasión y decora con corazón</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 </body>

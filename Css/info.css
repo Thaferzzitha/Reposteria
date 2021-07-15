@@ -1,0 +1,34 @@
+#info{
+    background:rgb(225, 155, 243);
+    color:rgb(247, 241, 246);
+    text-align:center;
+    padding: 20px;
+}
+
+#info .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.info-postre{
+    margin: 20px;
+}
+
+.info-postre img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 7px solid rgb(178, 228, 248);
+}
+
+@media screen and (min-width:480px) {
+    .info-postre {
+        width: 40%;
+    }
+}
+@media screen and (min-width:1024px) {
+    .info-postre {
+        width: auto;
+    }
+}
