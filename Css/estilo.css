@@ -12,13 +12,13 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Handlee', cursive;;
 }
 
 header{
     width:100%;
     height:50px;
-    background: #333;
+    background: rgb(236, 179, 229);
     color: #fff;
 
     position: fixed;
@@ -67,7 +67,7 @@ footer .contenedor{
 }
 
 .sociales a{
-    color:aqua;
+    color:rgb(141, 233, 233);
     text-decoration: none;
 }
 
@@ -92,8 +92,8 @@ footer .contenedor{
     margin: 30px;
     border-radius:6px;
     overflow: hidden;
-    background:rgb(168, 227, 245);
-    box-shadow: 0 4px 6px -1px rgb(0, 0, 0), 0 2px 4px -1px rgba(0,0,0,0.06);
+    background:rgb(144, 217, 240);
+    box-shadow: 0 4px 6px -1px rgb(177, 176, 247), 0 2px 4px -1px rgba(0,0,0,0.06);
     cursor:default;
     transition: all 400ms ease;
 }
