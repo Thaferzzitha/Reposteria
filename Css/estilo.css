@@ -35,6 +35,12 @@ header{
 h1{
     float:left;
 }
+h2{
+    color: blueviolet;
+}
+p{
+    color: darkturquoise;
+}
 
 header .contenedor{
     display: table;

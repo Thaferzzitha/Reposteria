@@ -31,10 +31,12 @@ header label {
 
 .menu a:hover {
     background: 1px solid rgb(191, 165, 197);
+    color: darkviolet;
 }
 
 #menu-bar:checked ~ .menu{
     transform:translateX(0%);
+    width: 30vw;
 }
 
 @media (min-width:1024px) {
