@@ -6,6 +6,7 @@
 }
 
 
+
 #info .contenedor {
     display: flex;
     flex-wrap: wrap;
@@ -13,14 +14,23 @@
 }
 
 .info-postre{
-    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.info-postre ul{
+    justify-content: space-evenly;
 }
 
 .info-postre img {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    border-radius: 20%;
     border: 7px solid rgb(178, 228, 248);
+    object-fit: cover;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 @media screen and (min-width:480px) {
